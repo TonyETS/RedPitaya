@@ -25,3 +25,7 @@
 *.hex
 # backups
 *~
+/fpga/*.jou
+/fpga/*.log
+/fpga/.Xil
+/fpga/NA

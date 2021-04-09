@@ -188,7 +188,9 @@ gpio_if #(.DW (24)) gpio ();
 ////////////////////////////////////////////////////////////////////////////////
 
 // diferential clock input
-IBUFDS i_clk (.I (adc_clk_i[1]), .IB (adc_clk_i[0]), .O (adc_clk_in));  // differential clock input
+//IBUFDS i_clk (.I (adc_clk_i[1]), .IB (adc_clk_i[0]), .O (adc_clk_in));  // differential clock input
+
+assign adc_clk_in = fclk[0];
 
 red_pitaya_pll pll (
   // inputs
