@@ -29,3 +29,11 @@
 /fpga/*.log
 /fpga/.Xil
 /fpga/NA
+/fpga/prj/v0.94/project
+/fpga/prj/v0.94/out
+/fpga/prj/v0.94/.gen
+/fpga/prj/v0.94/.srcs
+/fpga/prj/v0.94/.Xil
+/fpga/prj/v0.94/sdk
+/fpga/vivado.log
+/fpga/vivado.jou
